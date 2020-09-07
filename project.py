@@ -44,7 +44,7 @@ def ClassValid():
     valid=0
     while valid==0:
         Class=int(input("Enter Your Class="))
-        if Class== "11"or"12":
+        if Class=="12":
             valid=1
             return Class
         else:
