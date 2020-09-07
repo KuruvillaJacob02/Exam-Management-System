@@ -155,6 +155,7 @@ def editstudent():
                 rec=pickle.load(student)
                 recnew.append(rec)
         except:
+            found=0
             for k in recnew:
                 if k[0]==AdmNo:
                     found=1
