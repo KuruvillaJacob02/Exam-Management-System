@@ -138,6 +138,7 @@ def NewStudent():
                     Class=ClassValid()
                     Sec=SecValid()
                     sc=streamcode()
+                    print("Stored Details Sucessfully")
                     newrec=[AdmNo,roll,name,Class,Sec,Gen,dob,fname,mname,phnchk,sc]
                     pickle.dump(newrec,student)
                 for i in recnew:
