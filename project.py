@@ -7,7 +7,7 @@ def NameValid():
     valid=0
     while valid==0:
         name=input("Enter Your Name=")
-        if len(name)>2 and name.isalnum()==False:
+        if len(name)>3 and name.isalnum()==False:
             valid=1
         else:
             print("Invalid Name,Please Enter again")
