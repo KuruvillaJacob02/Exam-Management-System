@@ -1,6 +1,6 @@
 #By Charith.K
 import pickle
-from _ckprojectmodules import project 
+from _CSprojectmodules import project 
 ch=1 
 while ch!=0:
     print("Hello Student/Parents")
