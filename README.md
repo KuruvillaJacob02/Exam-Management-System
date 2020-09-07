@@ -8,12 +8,12 @@ Hello Peeps!😀
 
 # Certain requirements:
 
-1)Install "Tabulate" module in the PythonScripts directory using the command pip install tabulate.
+1)Install "Tabulate" module in the PythonScripts directory using the command ``` pip install tabulate```
 
 2)Copy the folder _CSprojectmodules ,to your python Lib directory.
 
-3)Then make sure you copy ("Exam Management System(.py file), StudentFile(.dat file), Result(.dat file)),these files to _CSprojectmodules.
+3)Make sure the files StudentFile.dat and ResultFile.dat are in the same directory as Exam Management.py
 
-#NOTE: 1)Make sure you font is atleast 13, since the tables are huge.
-        2) This ExamManagementSystem is for 12th Grade Students(As per the validations)
+# NOTE: 1)Make sure you font is atleast 13, since the tables are huge.
+#        2) This ExamManagementSystem is for 12th Grade Students(As per the validations)
 
