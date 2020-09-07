@@ -177,12 +177,12 @@ def editstudent():
                             rec[9]=int(input("Enter the corrected number="))
                         elif ch==5:
                             rec[10]=input("Enter your Streamcode=")
-                with open('StudentFile.dat','wb') as student:
-                    pickle.dump(k,student)
                 if found==0:
                     print("Invalid Adm.no/Doesn't Exist")
                 else:
                     print("Edited Student details successfully")
+        with open('StudentFile.dat','wb') as student:
+            pickle.dump(k,student)
 def displaydetails():
     with open("StudentFile.dat",'rb') as f:
         try:
