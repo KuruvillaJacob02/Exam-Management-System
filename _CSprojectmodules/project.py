@@ -891,9 +891,9 @@ def editmarks():
                             rec[4]=int(input("Enter the corrected marks="))
                         elif ch==5:
                             rec[5]=input("Enter the corrected marks=")
-                 if found==0:
+                if found==0:
                      print("Invalid Adm.no/Doesn't Exist")
-                 else:
+                else:
                      print("Edited Student's Report successfully")
         with open('ResultFile.dat','wb') as result:
             pickle.dump(k,result)
