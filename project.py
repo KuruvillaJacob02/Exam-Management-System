@@ -250,6 +250,7 @@ def marks():
                              s3=int(input("Enter your marks{SUB3}="))
                              s4=int(input("Enter your marks{SUB4}="))
                              s5=int(input("Enter your marks{SUB5}="))
+                             print("STORED THE DATA SUCCESSFULLY!")
                              with open("ResultFile.dat","wb") as result:
                                  total_list=[s1,s2,s3,s4,s5]
                                  total=s1+s2+s3+s4+s5
@@ -346,6 +347,7 @@ def marks():
                              s3=int(input("Enter your marks{SUB3}="))
                              s4=int(input("Enter your marks{SUB4}="))
                              s5=int(input("Enter your marks{SUB5}="))
+                             print("STORED THE DATA SUCCESSFULLY!")
                              with open("ResultFile.dat","wb") as result:
                                  total_list=[s1,s2,s3,s4,s5]
                                  total=s1+s2+s3+s4+s5
@@ -441,6 +443,7 @@ def marks():
                             s3=int(input("Enter your marks{SUB3}="))
                             s4=int(input("Enter your marks{SUB4}="))
                             s5=int(input("Enter your marks{SUB5}="))
+                            print("STORED THE DATA SUCCESSFULLY!")
                             with open("ResultFile.dat","wb") as result:
                                 total_list=[s1,s2,s3,s4,s5]
                                 total=s1+s2+s3+s4+s5
@@ -536,6 +539,7 @@ def marks():
                              s3=int(input("Enter your marks{SUB3}="))
                              s4=int(input("Enter your marks{SUB4}="))
                              s5=int(input("Enter your marks{SUB5}="))
+                             print("STORED THE DATA SUCCESSFULLY!")
                              with open("ResultFile.dat","wb") as result:
                                  total_list=[s1,s2,s3,s4,s5]
                                  total=s1+s2+s3+s4+s5
@@ -631,6 +635,7 @@ def marks():
                              s3=int(input("Enter your marks{SUB3}="))
                              s4=int(input("Enter your marks{SUB4}="))
                              s5=int(input("Enter your marks{SUB5}="))
+                             print("STORED THE DATA SUCCESSFULLY!")
                              with open("ResultFile.dat","wb") as result:
                                  total_list=[s1,s2,s3,s4,s5]
                                  total=s1+s2+s3+s4+s5
@@ -726,6 +731,7 @@ def marks():
                             s3=int(input("Enter your marks{SUB3}="))
                             s4=int(input("Enter your marks{SUB4}="))
                             s5=int(input("Enter your marks{SUB5}="))
+                            print("STORED THE DATA SUCCESSFULLY!")
                             with open("ResultFile.dat","wb") as result:
                                 total_list=[s1,s2,s3,s4,s5]
                                 total=s1+s2+s3+s4+s5
