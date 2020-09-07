@@ -14,6 +14,6 @@ Hello Peeps!😀
 
 3)Make sure the files StudentFile.dat and ResultFile.dat are in the same directory as Exam Management.py
 
-# NOTE: 1)Make sure you font is atleast 13, since the tables are huge.
-#        2) This ExamManagementSystem is for 12th Grade Students(As per the validations)
+## NOTE: 1)Make sure you font is atleast 13, since the tables are huge.
+##       2) This ExamManagementSystem is for 12th Grade Students(As per the validations)
 
