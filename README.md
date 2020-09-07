@@ -1,12 +1,12 @@
-#Exam-Management-System
+# Exam-Management-System
 
-Hello Peeps!😀
-Well, this is my first "python based project activity", a simple and a decent one.If you are looking for a sample ref. for your school(11th/12thGrade) activity,then here you are..
-
-
+# Hello Peeps!😀
+# Well, this is my first "python based project activity", a simple and a decent one.If you are looking for a sample ref. for your school(11th/12thGrade) activity,then here you are..
 
 
-Certain requirements:
+
+
+# Certain requirements:
 
 1)Install "Tabulate" module in the PythonScripts directory using the command pip install tabulate.
 
