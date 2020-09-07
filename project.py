@@ -145,6 +145,7 @@ def NewStudent():
                     pickle.dump(i,student)
 def editstudent():
     with open('StudentFile.dat','rb') as student:
+        found=0
         print("To Cancel,Enter '0'")
         AdmNo=int(input("Enter Your Adm.no="))
         if AdmNo==0:
@@ -155,7 +156,6 @@ def editstudent():
                 rec=pickle.load(student)
                 recnew.append(rec)
         except:
-            found=0
             for k in recnew:
                 if k[0]==AdmNo:
                     found=1
@@ -853,6 +853,7 @@ def deletemarks():
 
 def editmarks():
     with open('ResultFile.dat','rb') as result:
+        found=0
         print("To Cancel,Enter '0'")
         AdmNo=int(input("Enter your Adm.no="))
         Str=input("Enter your Streamcode=") 
@@ -888,12 +889,12 @@ def editmarks():
                             rec[4]=int(input("Enter the corrected marks="))
                         elif ch==5:
                             rec[5]=input("Enter the corrected marks=")
-                with open('ResultFile.dat','wb') as result:
-                    pickle.dump(k,result)
                 if found==0:
                     print("Invalid Adm.no/Doesn't Exist")
                 else:
-                    print("Edited Student's Report successfully")
+                    print("Edited Student's Report successfully")  
+        with open('ResultFile.dat','wb') as result:
+            pickle.dump(k,result)
 
 def displayreport():
     AdmNo=int(input("Enter your AdmNo="))
