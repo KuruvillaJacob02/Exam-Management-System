@@ -88,9 +88,6 @@ def rollchk():
         if roll>=1 and roll<=35:
             valid=1
             return roll
-        elif roll.isalpha()==True or isdigit()==True:
-            valid=0
-            print("Invalid")
         else:
             valid=0
             print("Invalid")
