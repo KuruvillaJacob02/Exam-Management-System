@@ -14,3 +14,5 @@ Hello Peeps!😀
 
 3)Then make sure you copy ("Exam Management System(.py file), StudentFile(.dat file), Result(.dat file)),these files to _CSprojectmodules.
 
+###NOTE:Make sure you font is atleast 13, since the tables are huge
+
